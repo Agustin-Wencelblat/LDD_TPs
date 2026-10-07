@@ -12,7 +12,7 @@ from inline_sql import sql, sql_val
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-carpeta = "D://Facultad//Laboratorio de Datos//TP 1 - inlineSQL//Tablas Limpias//"
+carpeta = "Tablas Limpias/"
 sedescsv = pd.read_csv(carpeta+'lista-sedes-limpia.csv')
 seccionescsv = pd.read_csv(carpeta+'lista-secciones-limpia.csv')
 migracionescsv = pd.read_csv(carpeta+'datos_migraciones_limpia.csv')
